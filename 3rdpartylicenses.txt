@@ -23,9 +23,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-@angular-material-extensions/select-country
-MIT
-
 @angular/animations
 MIT
 
@@ -125,6 +122,9 @@ THE SOFTWARE.
 MIT
 
 @angular/router
+MIT
+
+@tcon-22/select-country
 MIT
 
 angulartics2
