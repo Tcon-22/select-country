@@ -32,6 +32,7 @@ export class MatSelectCountryComponent implements OnInit {
   @Input() placeHolder = 'Select country';
   @Input() disabled: boolean;
   @Input() readonly: boolean;
+  @Input() defaultValue = '';
 
   @Output() onCountrySelected: EventEmitter<Country> = new EventEmitter<Country>();
 
