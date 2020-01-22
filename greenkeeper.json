@@ -3,7 +3,7 @@
     "default": {
       "packages": [
         "package.json",
-        "projects/angular-material-extensions/select-country/package.json"
+        "projects/tcon-22/select-country/package.json"
       ]
     }
   }

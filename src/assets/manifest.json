@@ -1,11 +1,11 @@
 {
-  "name": "@angular-material-extensions/select-country",
+  "name": "@tcon-22/select-country",
   "short_name": "select-country",
   "theme_color": "#1976d2",
   "background_color": "#2196f3",
   "display": "browser",
   "Scope": "/",
-  "start_url": "/https://angular-material-extensions.github.io/select-country/",
+  "start_url": "/https://tcon-22.github.io/select-country/",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",

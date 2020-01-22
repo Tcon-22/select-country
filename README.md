@@ -1,38 +1,38 @@
 <p align="center">
-  <img alt="angular-material-extensions's logo"
+  <img alt="tcon-22's logo"
    height="256px" width="256px" style="text-align: center;" 
-   src="https://cdn.jsdelivr.net/gh/angular-material-extensions/select-country@master/assets/angular-material-extensions-logo.svg">
+   src="https://cdn.jsdelivr.net/gh/tcon-22/select-country@master/assets/tcon-22-logo.svg">
 </p>
 
-# @angular-material-extensions/select-country - Angular Material component that allow users to select a country or nationality with an autocomplete feature - Angular V8 supported incl. schematics
+# @tcon-22/select-country - Angular Material component that allow users to select a country or nationality with an autocomplete feature - Angular V8 supported incl. schematics
 
-[![npm version](https://badge.fury.io/js/%40angular-material-extensions%2Fselect-country.svg)](https://badge.fury.io/js/%40angular-material-extensions%2Fselect-country)
-[![npm demo](https://img.shields.io/badge/demo-online-ed1c46.svg)](https://angular-material-extensions.github.io/select-country)
-[![docs: typedoc](https://img.shields.io/badge/docs-typedoc-4D0080.svg)](https://angular-material-extensions.github.io/select-country/doc/index.html)
-[![Join the chat at https://gitter.im/angular-material-extensions/Lobby](https://badges.gitter.im/angular-material-extensions/Lobby.svg)](https://gitter.im/angular-material-extensions/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Build Status](https://travis-ci.org/angular-material-extensions/select-country.svg?branch=master)](https://travis-ci.org/angular-material-extensions/select-country)
-[![codecov](https://codecov.io/gh/angular-material-extensions/select-country/branch/master/graph/badge.svg)](https://codecov.io/gh/angular-material-extensions/select-country)
-[![dependency Status](https://david-dm.org/angular-material-extensions/select-country/status.svg)](https://david-dm.org/angular-material-extensions/select-country)
-[![devDependency Status](https://david-dm.org/angular-material-extensions/select-country/dev-status.svg?branch=master)](https://david-dm.org/angular-material-extensions/select-country#info=devDependencies)
-[![Greenkeeper Badge](https://badges.greenkeeper.io/angular-material-extensions/select-country.svg)](https://greenkeeper.io/)
-[![license](https://img.shields.io/github/license/angular-material-extensions/select-country.svg?style=flat-square)](https://github.com/angular-material-extensions/select-country/blob/master/LICENSE)
+[![npm version](https://badge.fury.io/js/%40tcon-22%2Fselect-country.svg)](https://badge.fury.io/js/%40tcon-22%2Fselect-country)
+[![npm demo](https://img.shields.io/badge/demo-online-ed1c46.svg)](https://tcon-22.github.io/select-country)
+[![docs: typedoc](https://img.shields.io/badge/docs-typedoc-4D0080.svg)](https://tcon-22.github.io/select-country/doc/index.html)
+[![Join the chat at https://gitter.im/tcon-22/Lobby](https://badges.gitter.im/tcon-22/Lobby.svg)](https://gitter.im/tcon-22/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Build Status](https://travis-ci.org/tcon-22/select-country.svg?branch=master)](https://travis-ci.org/tcon-22/select-country)
+[![codecov](https://codecov.io/gh/tcon-22/select-country/branch/master/graph/badge.svg)](https://codecov.io/gh/tcon-22/select-country)
+[![dependency Status](https://david-dm.org/tcon-22/select-country/status.svg)](https://david-dm.org/tcon-22/select-country)
+[![devDependency Status](https://david-dm.org/tcon-22/select-country/dev-status.svg?branch=master)](https://david-dm.org/tcon-22/select-country#info=devDependencies)
+[![Greenkeeper Badge](https://badges.greenkeeper.io/tcon-22/select-country.svg)](https://greenkeeper.io/)
+[![license](https://img.shields.io/github/license/tcon-22/select-country.svg?style=flat-square)](https://github.com/tcon-22/select-country/blob/master/LICENSE)
 
 
 <p align="center">
-  <img alt="@angular-material-extensions/select-country demonstration" style="text-align: center;"
-   src="https://raw.githubusercontent.com/angular-material-extensions/select-country/HEAD/assets/v0.2.0/select-country.gif">
+  <img alt="@tcon-22/select-country demonstration" style="text-align: center;"
+   src="https://raw.githubusercontent.com/tcon-22/select-country/HEAD/assets/v0.2.0/select-country.gif">
 </p>
 
 <p align="center">
-  <img alt="@angular-material-extensions/select-country demonstration" style="text-align: center;"
-   src="https://raw.githubusercontent.com/angular-material-extensions/select-country/HEAD/assets/v0.2.0/select-country.png">
+  <img alt="@tcon-22/select-country demonstration" style="text-align: center;"
+   src="https://raw.githubusercontent.com/tcon-22/select-country/HEAD/assets/v0.2.0/select-country.png">
 </p>
 
 ## Built by and for developers :heart:
 Do you have any question or suggestion ? Please do not hesitate to contact us!
-Alternatively, provide a PR | open an appropriate issue [here](https://github.com/angular-material-extensions/select-country/issues)
+Alternatively, provide a PR | open an appropriate issue [here](https://github.com/tcon-22/select-country/issues)
 
-If you like this project, support [angular-material-extensions](https://github.com/angular-material-extensions) 
+If you like this project, support [tcon-22](https://github.com/tcon-22) 
 by starring :star: and sharing it :loudspeaker:
 
 ## Table of Contents
@@ -49,9 +49,9 @@ by starring :star: and sharing it :loudspeaker:
 
 <a name="demo"/>
 
-## [Demo](https://angular-material-extensions.github.io/select-country)
+## [Demo](https://tcon-22.github.io/select-country)
 
-View all the directives and components in action at [https://angular-material-extensions.github.io/select-country](https://angular-material-extensions.github.io/select-country)
+View all the directives and components in action at [https://tcon-22.github.io/select-country](https://tcon-22.github.io/select-country)
 
 <a name="components"/>
 
@@ -70,7 +70,7 @@ View all the directives and components in action at [https://angular-material-ex
 
 <a name="installation"/>
 
-##  [Installation](https://angular-material-extensions.github.io/select-country/getting-started)
+##  [Installation](https://tcon-22.github.io/select-country/getting-started)
 
 ## 1. Install via *ng add*. (Recommended)
 
@@ -78,7 +78,7 @@ If Angular Material Design is not setup, just run `ng add @angular/material` [le
 
 Now add the library via the `angular schematics`
 ```shell
-ng add @angular-material-extensions/select-country
+ng add @tcon-22/select-country
 ```
 
 ## 2. Install via *npm*. (Alternative) 
@@ -102,9 +102,9 @@ then update your `angular.json` like below (svg-country-flags)
             ],
 ```
 
-Now install `@angular-material-extensions/select-country` via:
+Now install `@tcon-22/select-country` via:
 ```shell
-npm install --save @angular-material-extensions/select-country
+npm install --save @tcon-22/select-country
 ```
 
 
@@ -114,11 +114,11 @@ If you installed the library via angular schematics, you can skip this step
 
 Once installed you need to import the main module:
 ```js
-import { MatSelectCountryModule } from '@angular-material-extensions/select-country';
+import { MatSelectCountryModule } from '@tcon-22/select-country';
 ```
 
 ```typescript
-import { MatSelectCountryModule } from '@angular-material-extensions/select-country';
+import { MatSelectCountryModule } from '@tcon-22/select-country';
 
 @NgModule({
   declarations: [AppComponent, ...],
@@ -136,7 +136,7 @@ Other modules in your application like for lazy loading import ` MatSelectCountr
 
 ## API
 
-### `<mat-select-country>`  used to display the main component - [see the demo examples](https://angular-material-extensions.github.io/select-country/examples)
+### `<mat-select-country>`  used to display the main component - [see the demo examples](https://tcon-22.github.io/select-country/examples)
 
 | option | bind  |  type  |   default    | description  |
 |:-------------------|:--------:|:------:|:------------:|:-------------------------------------------------------------------------------------------------|    
@@ -160,7 +160,7 @@ interface Country {
 
 <a name="usage"/>
 
-## [Usage](https://angular-material-extensions.github.io/select-country)
+## [Usage](https://tcon-22.github.io/select-country)
 
 add the `<mat-select-country>` element to your template:
 
@@ -170,18 +170,18 @@ add the `<mat-select-country>` element to your template:
 ```
 
 <p align="center">
-  <img alt="@angular-material-extensions/select-country demonstration" style="text-align: center;"
-   src="https://raw.githubusercontent.com/angular-material-extensions/select-country/HEAD/assets/v0.2.0/example_full.png">
+  <img alt="@tcon-22/select-country demonstration" style="text-align: center;"
+   src="https://raw.githubusercontent.com/tcon-22/select-country/HEAD/assets/v0.2.0/example_full.png">
 </p>
 
 <p align="center">
-  <img alt="@angular-material-extensions/select-country demonstration" style="text-align: center;"
-   src="https://raw.githubusercontent.com/angular-material-extensions/select-country/HEAD/assets/v0.2.0/example3.png">
+  <img alt="@tcon-22/select-country demonstration" style="text-align: center;"
+   src="https://raw.githubusercontent.com/tcon-22/select-country/HEAD/assets/v0.2.0/example3.png">
 </p>
 
 <p align="center">
-  <img alt="@angular-material-extensions/select-country demonstration" style="text-align: center;"
-   src="https://raw.githubusercontent.com/angular-material-extensions/select-country/HEAD/assets/v0.2.0/example2.png">
+  <img alt="@tcon-22/select-country demonstration" style="text-align: center;"
+   src="https://raw.githubusercontent.com/tcon-22/select-country/HEAD/assets/v0.2.0/example2.png">
 </p>
 
 
@@ -207,26 +207,26 @@ $ npm start
 ## Other Angular Libraries
 - [ngx-auth-firebaseui](https://github.com/AnthonyNahas/ngx-auth-firebaseui)
 - [ngx-linkifyjs](https://github.com/AnthonyNahas/ngx-linkifyjs)
-- [@angular-material-extensions/password-strength](https://github.com/angular-material-extensions/password-strength)
-- [@angular-material-extensions/google-maps-autocomplete](https://github.com/angular-material-extensions/google-maps-autocomplete)
-- [@angular-material-extensions/link-preview](https://github.com/angular-material-extensions/link-preview)
-- [@angular-material-extensions/fab-menu](https://github.com/angular-material-extensions/fab-menu)
-- [@angular-material-extensions/pages](https://github.com/angular-material-extensions/pages)
-- [@angular-material-extensions/contacts](https://github.com/angular-material-extensions/contacts)
+- [@tcon-22/password-strength](https://github.com/tcon-22/password-strength)
+- [@tcon-22/google-maps-autocomplete](https://github.com/tcon-22/google-maps-autocomplete)
+- [@tcon-22/link-preview](https://github.com/tcon-22/link-preview)
+- [@tcon-22/fab-menu](https://github.com/tcon-22/fab-menu)
+- [@tcon-22/pages](https://github.com/tcon-22/pages)
+- [@tcon-22/contacts](https://github.com/tcon-22/contacts)
 ---
 
 <a name="support"/>
 
 ## Support
 + Drop an email to: [Anthony Nahas](mailto:anthony.na@hotmail.de)
-+ or open an appropriate [issue](https://github.com/angular-material-extensions/select-country/issues)
-+ let us chat on [Gitter](https://gitter.im/angular-material-extensions/Lobby)
++ or open an appropriate [issue](https://github.com/tcon-22/select-country/issues)
++ let us chat on [Gitter](https://gitter.im/tcon-22/Lobby)
  
  Built by and for developers :heart: we will help you :punch:
 
 ---
 
-![jetbrains logo](https://raw.githubusercontent.com/angular-material-extensions/select-country/HEAD/assets/jetbrains-variant-4_logos/jetbrains-variant-4.png)
+![jetbrains logo](https://raw.githubusercontent.com/tcon-22/select-country/HEAD/assets/jetbrains-variant-4_logos/jetbrains-variant-4.png)
 
 This project is supported by [jetbrains](https://www.jetbrains.com/) with 1 ALL PRODUCTS PACK OS LICENSE incl. [webstorm](https://www.jetbrains.com/webstorm)
 

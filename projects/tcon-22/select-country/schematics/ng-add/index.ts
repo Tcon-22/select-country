@@ -12,7 +12,7 @@ import {
 /** Loads the full version from the given Angular package gracefully. */
 function loadPackageVersionGracefully(): string | null {
   try {
-    console.log('@angular-material-extensions/select-country version = ', require(`../../package.json`).version);
+    console.log('@tcon-22/select-country version = ', require(`../../package.json`).version);
     return require(`../../package.json`).version;
   } catch {
     return null;
@@ -27,7 +27,7 @@ export function addPackageJsonDependencies(): Rule {
     const dependencies: NodeDependency[] = [
       {
         type: NodeDependencyType.Default, version: loadPackageVersionGracefully()
-          || '0.2.2', name: '@angular-material-extensions/select-country'
+          || '0.2.2', name: '@tcon-22/select-country'
       },
       {type: NodeDependencyType.Default, version: '^1.2.6', name: 'svg-country-flags'},
     ];
@@ -61,7 +61,7 @@ export function addModuleToImports(options: any): Rule {
 
     const moduleName = `MatSelectCountryModule`;
 
-    addModuleImportToRootModule(host, moduleName, '@angular-material-extensions/select-country', project);
+    addModuleImportToRootModule(host, moduleName, '@tcon-22/select-country', project);
 
     context.logger.log('info', `✅️ "${moduleName}" is imported`);
 
@@ -87,7 +87,7 @@ export function getPackageVersionFromPackageJson(tree: Tree, name: string): stri
 
 function addLibAssetsToAssets(options: any) {
   return (host: Tree, context: SchematicContext) => {
-    const lib = '@angular-material-extensions/select-country';
+    const lib = '@tcon-22/select-country';
     const assetPath = 'node_modules/svg-country-flags/svg';
 
     try {

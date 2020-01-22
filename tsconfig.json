@@ -22,11 +22,11 @@
       "dom"
     ],
     "paths": {
-      "@angular-material-extensions/select-country": [
-        "dist/angular-material-extensions/select-country"
+      "@tcon-22/select-country": [
+        "dist/tcon-22/select-country"
       ],
-      "@angular-material-extensions/select-country/*": [
-        "dist/angular-material-extensions/select-country/*"
+      "@tcon-22/select-country/*": [
+        "dist/tcon-22/select-country/*"
       ]
     }
   },

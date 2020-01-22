@@ -44,4 +44,4 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
-!/projects/angular-material-extensions/select-country/coverage/
+!/projects/tcon-22/select-country/coverage/

@@ -29,7 +29,7 @@ export class MatSelectCountryComponent implements OnInit {
 
   @Input() appearance: MatFormFieldAppearance;
   @Input() label: string;
-  @Input() placeHolder = 'Select country';
+  @Input() placeHolder = 'Select Country';
   @Input() disabled: boolean;
   @Input() readonly: boolean;
   @Input() defaultValue = '';

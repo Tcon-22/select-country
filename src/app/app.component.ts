@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {Country} from '@angular-material-extensions/select-country';
+import {Country} from '@tcon-22/select-country';
 import {Angulartics2GoogleAnalytics} from 'angulartics2/ga';
 
 @Component({

@@ -21,7 +21,7 @@ jobs:
   include:
     - stage: test
       script:
-        - cd projects/angular-material-extensions/select-country && ../../../node_modules/.bin/jest --coverage
+        - cd projects/tcon-22/select-country && ../../../node_modules/.bin/jest --coverage
 
 after_success:
   - codecov
