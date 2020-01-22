@@ -433,7 +433,7 @@
   <h2>Usage</h2>
 
   <div fxLayoutAlign="center">
-    <mat-select-country appearance="outline"
+    <mat-select-country [defaultValue]="'AF'" appearance="outline"
                         label="Country"
                         (onCountrySelected)="onCountrySelected($event)">
     </mat-select-country>
