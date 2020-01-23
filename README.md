@@ -1,57 +1,13 @@
-<p align="center">
-  <img alt="tcon-22's logo"
-   height="256px" width="256px" style="text-align: center;" 
-   src="https://cdn.jsdelivr.net/gh/tcon-22/select-country@master/assets/tcon-22-logo.svg">
-</p>
-
-# @tcon-22/select-country - Angular Material component that allow users to select a country or nationality with an autocomplete feature - Angular V8 supported incl. schematics
+# @tcon-22/select-country - Angular Material component that allow users to select a country or nationality with a default and an autocomplete feature - Angular V8 supported incl. schematics
 
 [![npm version](https://badge.fury.io/js/%40tcon-22%2Fselect-country.svg)](https://badge.fury.io/js/%40tcon-22%2Fselect-country)
 [![npm demo](https://img.shields.io/badge/demo-online-ed1c46.svg)](https://tcon-22.github.io/select-country)
 [![docs: typedoc](https://img.shields.io/badge/docs-typedoc-4D0080.svg)](https://tcon-22.github.io/select-country/doc/index.html)
-[![Join the chat at https://gitter.im/tcon-22/Lobby](https://badges.gitter.im/tcon-22/Lobby.svg)](https://gitter.im/tcon-22/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Build Status](https://travis-ci.org/tcon-22/select-country.svg?branch=master)](https://travis-ci.org/tcon-22/select-country)
-[![codecov](https://codecov.io/gh/tcon-22/select-country/branch/master/graph/badge.svg)](https://codecov.io/gh/tcon-22/select-country)
-[![dependency Status](https://david-dm.org/tcon-22/select-country/status.svg)](https://david-dm.org/tcon-22/select-country)
-[![devDependency Status](https://david-dm.org/tcon-22/select-country/dev-status.svg?branch=master)](https://david-dm.org/tcon-22/select-country#info=devDependencies)
-[![Greenkeeper Badge](https://badges.greenkeeper.io/tcon-22/select-country.svg)](https://greenkeeper.io/)
-[![license](https://img.shields.io/github/license/tcon-22/select-country.svg?style=flat-square)](https://github.com/tcon-22/select-country/blob/master/LICENSE)
 
-
-<p align="center">
-  <img alt="@tcon-22/select-country demonstration" style="text-align: center;"
-   src="https://raw.githubusercontent.com/tcon-22/select-country/HEAD/assets/v0.2.0/select-country.gif">
-</p>
-
-<p align="center">
-  <img alt="@tcon-22/select-country demonstration" style="text-align: center;"
-   src="https://raw.githubusercontent.com/tcon-22/select-country/HEAD/assets/v0.2.0/select-country.png">
-</p>
-
-## Built by and for developers :heart:
-Do you have any question or suggestion ? Please do not hesitate to contact us!
-Alternatively, provide a PR | open an appropriate issue [here](https://github.com/tcon-22/select-country/issues)
 
 If you like this project, support [tcon-22](https://github.com/tcon-22) 
-by starring :star: and sharing it :loudspeaker:
+:star: it  :loudspeaker: it
 
-## Table of Contents
-- [Demo](#demo)
-- [Components](#components)
-- [Dependencies](#dependencies)
-- [Installation](#installation)
-- [API](#api)
-- [Usage](#usage)
-- [Run Demo App Locally](#run-demo-app-locally)
-- [Other Angular Libraries](#other-angular-libraries)
-- [Support](#support)
-- [License](#license)
-
-<a name="demo"/>
-
-## [Demo](https://tcon-22.github.io/select-country)
-
-View all the directives and components in action at [https://tcon-22.github.io/select-country](https://tcon-22.github.io/select-country)
 
 <a name="components"/>
 
@@ -70,7 +26,7 @@ View all the directives and components in action at [https://tcon-22.github.io/s
 
 <a name="installation"/>
 
-##  [Installation](https://tcon-22.github.io/select-country/getting-started)
+##  [Installation]
 
 ## 1. Install via *ng add*. (Recommended)
 
@@ -145,6 +101,7 @@ Other modules in your application like for lazy loading import ` MatSelectCountr
 | placeHolder      | `Input()`  | `boolean`    | - |  input placeholder text
 | disabled      | `Input()`  | `boolean`    | - |  Whether the component is disabled
 | readonly      | `Input()`  | `boolean`    | - |  Whether the component is read only
+| defaultValue      | `Input()`  | `string`    | - |  alpha2Code of default selected value
 | onCountrySelected  | `Output()` | `EventEmitter<Country>`    | - | emits the selected country as object (see the interface below)
 
 
@@ -165,24 +122,12 @@ interface Country {
 add the `<mat-select-country>` element to your template:
 
 ```html
-<mat-select-country>
-</mat-select-country>
+<mat-select-country [placeHolder]="'Select Country'"
+                    [defaultValue]="'GB'"
+                    [readonly]="'false'"
+                    [disabled]="'false'"
+                    (onCountrySelected)="onCountrySelected($event)">
 ```
-
-<p align="center">
-  <img alt="@tcon-22/select-country demonstration" style="text-align: center;"
-   src="https://raw.githubusercontent.com/tcon-22/select-country/HEAD/assets/v0.2.0/example_full.png">
-</p>
-
-<p align="center">
-  <img alt="@tcon-22/select-country demonstration" style="text-align: center;"
-   src="https://raw.githubusercontent.com/tcon-22/select-country/HEAD/assets/v0.2.0/example3.png">
-</p>
-
-<p align="center">
-  <img alt="@tcon-22/select-country demonstration" style="text-align: center;"
-   src="https://raw.githubusercontent.com/tcon-22/select-country/HEAD/assets/v0.2.0/example2.png">
-</p>
 
 
 <a name="run-demo-app-locally"/>
@@ -204,37 +149,11 @@ $ npm start
 
 
 
-## Other Angular Libraries
-- [ngx-auth-firebaseui](https://github.com/AnthonyNahas/ngx-auth-firebaseui)
-- [ngx-linkifyjs](https://github.com/AnthonyNahas/ngx-linkifyjs)
-- [@tcon-22/password-strength](https://github.com/tcon-22/password-strength)
-- [@tcon-22/google-maps-autocomplete](https://github.com/tcon-22/google-maps-autocomplete)
-- [@tcon-22/link-preview](https://github.com/tcon-22/link-preview)
-- [@tcon-22/fab-menu](https://github.com/tcon-22/fab-menu)
-- [@tcon-22/pages](https://github.com/tcon-22/pages)
-- [@tcon-22/contacts](https://github.com/tcon-22/contacts)
----
-
-<a name="support"/>
-
-## Support
-+ Drop an email to: [Anthony Nahas](mailto:anthony.na@hotmail.de)
-+ or open an appropriate [issue](https://github.com/tcon-22/select-country/issues)
-+ let us chat on [Gitter](https://gitter.im/tcon-22/Lobby)
- 
- Built by and for developers :heart: we will help you :punch:
-
----
-
-![jetbrains logo](https://raw.githubusercontent.com/tcon-22/select-country/HEAD/assets/jetbrains-variant-4_logos/jetbrains-variant-4.png)
-
-This project is supported by [jetbrains](https://www.jetbrains.com/) with 1 ALL PRODUCTS PACK OS LICENSE incl. [webstorm](https://www.jetbrains.com/webstorm)
-
----
 
 <a name="license"/>
 
 ## License
 
-Copyright (c) 2019 [Anthony Nahas](https://github.com/AnthonyNahas). Licensed under the MIT License (MIT)
+Code forked from [Anthony Nahas](https://github.com/AnthonyNahas). 
+Licensed under the MIT License (MIT)
 

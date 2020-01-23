@@ -154,7 +154,7 @@
     "mat-select-country"
   ],
   "author": "tcon-22",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/tcon-22/select-country/issues"
   },
