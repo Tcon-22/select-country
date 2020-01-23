@@ -46,14 +46,14 @@ export class MatSelectCountryComponent implements OnInit {
       .pipe(
         startWith(''),
         debounceTime(300),
-        map(value => this._filter(value))
+        map(value => this.filter(value))
       );
 
     this.selectedCountry = this.countries.find(country => country.alpha2Code.toLowerCase() === this.defaultValue.toLowerCase());
     this.countryFormControl.setValue(this.selectedCountry.name);
   }
 
-  private _filter(value: string): Country[] {
+  private filter(value: string): Country[] {
     const filterValue = value.toLowerCase();
 
     return this.countries.filter((option: Country) =>

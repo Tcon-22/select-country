@@ -179,11 +179,11 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
-import {FormControl} from '@angular/forms';
-import {COUNTRIES_DB} from './db';
-import {Observable} from 'rxjs';
-import {map, startWith} from 'rxjs/operators';
-import {MatAutocompleteSelectedEvent, MatFormFieldAppearance} from '@angular/material';
+import { FormControl } from '@angular/forms';
+import { COUNTRIES_DB } from './db';
+import { Observable } from 'rxjs';
+import { map, startWith } from 'rxjs/operators';
+import { MatAutocompleteSelectedEvent, MatFormFieldAppearance } from '@angular/material';
 &nbsp;
 /**
  * Country interface ISO 3166
@@ -224,11 +224,11 @@ export class MatSelectCountryComponent implements OnInit {
     this.filteredOptions = this.countryFormControl.valueChanges
       .pipe(
         startWith(''),
-        map(value =&gt; this._filter(value))
+        map(value =&gt; this.filter(value))
       );
   }
 &nbsp;
-  private _filter(value: string): Country[] {
+  private filter(value: string): Country[] {
     const filterValue = value.toLowerCase();
 &nbsp;
     return this.countries.filter((option: Country) =&gt;
