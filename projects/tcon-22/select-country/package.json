@@ -1,7 +1,7 @@
 {
   "name": "@tcon-22/select-country",
-  "description": "Angular Material component that allow users to select a county or nationality ",
-  "version": "0.0.2",
+  "description": "Angular Material component that allow users to select a country or nationality ",
+  "version": "0.0.4",
   "homepage": "https://tcon-22.github.io/select-country",
   "author": {
     "name": "anthonynahas",

@@ -48,9 +48,10 @@ export class MatSelectCountryComponent implements OnInit {
         debounceTime(300),
         map(value => this.filter(value))
       );
-
-    this.selectedCountry = this.countries.find(country => country.alpha2Code.toLowerCase() === this.defaultValue.toLowerCase());
-    this.countryFormControl.setValue(this.selectedCountry.name);
+    if (this.defaultValue !== '') {
+        this.selectedCountry = this.countries.find(country => country.alpha2Code.toLowerCase() === this.defaultValue.toLowerCase());
+        this.countryFormControl.setValue(this.selectedCountry.name);
+    }
   }
 
   private filter(value: string): Country[] {
