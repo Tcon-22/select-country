@@ -33,6 +33,7 @@ export class MatSelectCountryComponent implements OnInit {
   @Input() disabled: boolean;
   @Input() readonly: boolean;
   @Input() defaultValue = '';
+  @Input() value = '';
 
   @Output() onCountrySelected: EventEmitter<Country> = new EventEmitter<Country>();
 
@@ -48,9 +49,13 @@ export class MatSelectCountryComponent implements OnInit {
         debounceTime(300),
         map(value => this.filter(value))
       );
-    if (this.defaultValue !== '') {
-        this.selectedCountry = this.countries.find(country => country.alpha2Code.toLowerCase() === this.defaultValue.toLowerCase());
-        this.countryFormControl.setValue(this.selectedCountry.name);
+
+    if (this.value !== '') {
+          this.selectedCountry = this.countries.find(country => country.alpha2Code.toLowerCase() === this.value.toLowerCase());
+          this.countryFormControl.setValue(this.selectedCountry.name);
+      } else if (this.defaultValue !== '') {
+          this.selectedCountry = this.countries.find(country => country.alpha2Code.toLowerCase() === this.defaultValue.toLowerCase());
+          this.countryFormControl.setValue(this.selectedCountry.name);
     }
   }
 
